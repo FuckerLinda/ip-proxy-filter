@@ -1,9 +1,13 @@
 # ip-proxy-filter
 
+
+
 ## HELP:
 
+
 ### Prior:
-#### chmod +x ./ip_test.sh
+chmod +x ./ip_test.sh
+
 
 
 ### Usage:
@@ -22,13 +26,16 @@
 [save_file] 指你想将可用ip保存到哪个文件 (默认为usable.txt)
 
 
+
 ### Warn
 if you set [save_file], you'd better set [maximum_time] too.
 
 设置了[save_file] 就需要设置 [maximum_time]
 
 
+
 ### Example
 ./ip_test.sh ips.txt https://www.bilibili.com 3 result.txt
+
 
 ![使用截图](./截图.png)
